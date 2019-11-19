@@ -6,10 +6,10 @@ public class Solution {
   public static void main(String[] args) {
 
     Scanner scanner = new Scanner(System.in);
-    int numberofIntegers = scanner.nextInt();
-    int[] input = new int[numberofIntegers];
+    int numberOfIntegers = scanner.nextInt();
+    int[] input = new int[numberOfIntegers];
 
-    for (int i = 0; i < numberofIntegers; i++) {
+    for (int i = 0; i < numberOfIntegers; i++) {
       input[i] = scanner.nextInt();
     }
     scanner.close();
